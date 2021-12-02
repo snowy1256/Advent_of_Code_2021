@@ -14,7 +14,7 @@ def get_num_increments():
         prev_input = int(INPUT_ARRAY[i - 1])
         if prev_input < curr_input:
             num_increments += 1
-    print num_increments
+    print(num_increments)
 
 
 if __name__ == "__main__":
